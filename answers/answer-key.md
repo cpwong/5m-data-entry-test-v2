@@ -81,7 +81,7 @@ Accept `load_dotenv()` call on a third line as an addition, not required. Do not
 
 **(a)** **B** — The kernel manages hardware resources and mediates between software and the CPU/memory/devices.
 
-**(b)** **B** — WSL is a compatibility layer integrated into Windows, not a full VM.
+**(b)** **B** — WSL (WSL 2) runs a genuine Linux environment with a real Linux kernel inside a lightweight, tightly integrated VM managed automatically by Windows. Option A describes a *traditional* full/heavy VM (e.g. VirtualBox/VMware) that you configure and isolate yourself — which WSL is not. (Note: early WSL 1 used a translation layer with no Linux kernel; modern WSL 2 is the lightweight-VM model described in B.)
 
 **(c)** **B** — VMs emulate an entire separate computer with their own OS and kernel, with dedicated resource allocation.
 
