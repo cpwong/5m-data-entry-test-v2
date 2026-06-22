@@ -28,17 +28,19 @@ This assessment tests foundational technical skills across five areas:
 
 | Area | Questions | Format |
 |------|-----------|--------|
-| Python Programming | Q1, Q2, Q8 | MCQ + short answer / code |
-| Command Line Interface (CLI) | Q3, Q9 | MCQ + commands |
-| Git and GitHub | Q4, Q10 | MCQ + commands |
-| Operating Systems | Q5, Q6 | MCQ + short answer |
-| AI Literacy | Q7 | Short answer |
+| Python Programming | Q1 (parts), Q2, Q7, Q8 | MCQ, paste output, predict, code |
+| Command Line Interface (CLI) | Q1 (parts), Q4 | MCQ, commands, predict |
+| Git and GitHub | Q1 (parts), Q9 | MCQ, commands |
+| Operating Systems / Shells | Q1 (parts), Q3, Q5 | MCQ, paste output, short answer |
+| AI Literacy | Q6 | Short answer |
+
+Q1 is a mixed multiple-choice block covering all five areas in one place.
 
 ---
 
 ## Submission Instructions
 
-The submission process is itself part of the assessment. Setting up Git, forking a repository, and pushing your work to GitHub are foundational skills you will use throughout the SCTP programme. If you have not done this before, use the steps and resources below to figure it out — that is exactly the kind of self-directed learning this programme is built on.
+The submission process is itself part of the assessment. Setting up Git, forking a repository, and pushing your work to GitHub are foundational skills you will use throughout the SCTP programme. If you have not done this before, use the steps and resources below to figure it out. That is exactly the kind of self-directed learning this programme is built on.
 
 You will need a GitHub account to submit. If you do not have one, create one first at https://github.com/
 
@@ -104,31 +106,44 @@ If you get stuck at any step, these resources can help:
 
 Work through these before attempting the assessment.
 
-### Python *(Q1, Q2, Q8)*
+### Python *(Q1 parts, Q2, Q7, Q8)*
 - [Variables and Naming Conventions](https://www.w3schools.com/python/gloss_python_variable_names.asp)
 - [Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 - [For Loops](https://www.w3schools.com/python/python_for_loops.asp)
 - [Functions](https://www.w3schools.com/python/python_functions.asp)
 - [Python Modules](https://www.w3schools.com/python/python_modules.asp)
+- [Installing Miniconda — Anaconda Docs](https://www.anaconda.com/docs/getting-started/miniconda/main) *(install this if `conda` is not yet on your machine; needed for Q2)*
 - [Managing Conda Environments — Conda Docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [python-dotenv — Loading `.env` files](https://pypi.org/project/python-dotenv/)
 - [Python with Mosh (video)](https://youtu.be/kqtD5dpn9C8)
 
-### Command Line Interface *(Q3, Q9)*
+### Command Line Interface *(Q1 parts, Q4)*
 - [Command Line Crash Course (video)](https://youtu.be/uwAqEzhyjtw)
 - [Linux Command Line Basics — freeCodeCamp](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
 
-### Git and GitHub *(Q4, Q10)*
+### Git and GitHub *(Q1 parts, Q9)*
 - [W3Schools Git Tutorial](https://www.w3schools.com/git/)
 - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)
 - [About Git — GitHub Docs](https://docs.github.com/en/get-started/using-git/about-git)
 
-### Operating Systems, WSL, and Terminals *(Q5, Q6)*
-- [What is WSL? — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/about)
-- [Install WSL on Windows 11 — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/install)
+### Operating Systems, Terminals, and Shells *(Q1 parts, Q3, Q5)*
+
+Read the entry for your OS, plus the general terminal/shell reference.
+
+**General**
 - [Understanding Terminal, Console, Shell and Kernel — GeeksforGeeks](https://www.geeksforgeeks.org/operating-systems/what-is-terminal-console-shell-and-kernel/)
 
-### AI Literacy and Prompt Engineering *(Q7)*
+**macOS**
+- [Open or quit Terminal on Mac — Apple Support](https://support.apple.com/en-sg/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
+
+**Linux**
+- [The Linux Commands Handbook — freeCodeCamp](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
+
+**Windows (WSL)**
+- [What is WSL? — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/about)
+- [Install WSL on Windows 11 — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+### AI Literacy and Prompt Engineering *(Q6)*
 - [Prompt Engineering Guide — OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Introduction to Prompt Engineering — LearnPrompting.org](https://learnprompting.org/docs/intro)
 
@@ -136,21 +151,20 @@ Work through these before attempting the assessment.
 
 ## Problems
 
-Please attempt all 10 questions in the `src/` folder:
+Please attempt all 9 questions in the `src/` folder:
 
-- [Question 1 — Python: Variables and Constants](./src/q1.md) *(MCQ)*
-- [Question 2 — Python: Packages, Environments, and Conda](./src/q2.md) *(MCQ + short answer)*
-- [Question 3 — CLI: Basic Command Line Navigation](./src/q3.md) *(MCQ)*
-- [Question 4 — GitHub: Core Concepts and Commands](./src/q4.md) *(MCQ)*
-- [Question 5 — Operating System Concepts](./src/q5.md) *(MCQ)*
-- [Question 6 — Operating System: WSL and Terminal Shells](./src/q6.md) *(Short answer)*
-- [Question 7 — AI Literacy: Prompt Engineering](./src/q7.md) *(Short answer)*
-- [Question 8 — Python: Loops and Functions](./src/q8.py) *(Code)*
-- [Question 9 — CLI: Directory Navigation and File Creation](./src/q9.py) *(Commands)*
-- [Question 10 — GitHub: Git Workflow](./src/q10.py) *(Commands)*
+- [Question 1 — Multiple Choice: Core Concepts](./src/q1.md) *(MCQ, 15 parts)*
+- [Question 2 — Python & Environment Setup](./src/q2.md) *(Paste real terminal output + short answer)*
+- [Question 3 — Your Operating System and Shell](./src/q3.md) *(Paste real terminal output + short answer)*
+- [Question 4 — CLI: Navigation and Predicting Output](./src/q4.md) *(Commands + predict output)*
+- [Question 5 — Operating Systems, Terminals, and Shells](./src/q5.md) *(Short answer)*
+- [Question 6 — AI Literacy: Prompt Engineering](./src/q6.md) *(Short answer + rewrite)*
+- [Question 7 — Python: Read and Predict Output](./src/q7.py) *(Predict + short answer)*
+- [Question 8 — Python: Find and Fix the Bug](./src/q8.py) *(Code)*
+- [Question 9 — GitHub: Git Workflow](./src/q9.py) *(Commands + short answer)*
 
-**`.md` files** (Q1–Q7): open in any text editor or view directly on GitHub, then fill in your answers where indicated.  
-**`.py` files** (Q8–Q10): open in a code editor or IDE and write your code where indicated.
+**`.md` files** (Q1 to Q6): open in any text editor or view directly on GitHub, then fill in your answers where indicated.  
+**`.py` files** (Q7 to Q9): open in a code editor or IDE and write your code where indicated.
 
 Your code should be readable and include brief comments where relevant.
 

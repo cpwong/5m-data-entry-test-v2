@@ -1,27 +1,36 @@
 """
-Question 9 — CLI: Directory Navigation and File Creation  [Short Answer]
+Question 9 — GitHub: Git Workflow  [Short Answer]
 
-You open a terminal. Your home directory is `/home/user`.
+This is the same workflow you used to SUBMIT this assessment, so you have
+already done most of it. Write the exact git command for each step.
 
-Write the exact sequence of CLI commands to accomplish each step below.
-Use one command per line.
+Scenario
+--------
+You have a local copy of a repo. You want to:
+1. Create a new branch called `my-solutions`.
+2. Switch to that branch.
+3. After editing `q4.md`, stage that file for commit.
+4. Commit the staged change with the message "Add Q4 answers".
+5. Push the `my-solutions` branch to GitHub.
 
-Task
-----
-1. Navigate to the `Documents` folder inside your home directory.
-2. Create a new folder called `sctp-project`.
-3. Navigate into `sctp-project`.
-4. Create an empty file called `notes.txt`.
-   (Hint: use `touch notes.txt` on Linux/macOS/WSL, or `New-Item notes.txt` in Windows PowerShell.)
-5. Confirm your current location by printing the full directory path.
-6. Go back to the home directory in a single command.
-
-Write your commands below (one per line):
+Write the exact git command for each step (one per line).
 """
 
-# Step 1:
-# Step 2:
-# Step 3:
-# Step 4:
-# Step 5:
-# Step 6:
+# Step 1 — Create a new branch called `my-solutions`:
+
+# Step 2 — Switch to `my-solutions`:
+
+# Step 3 — Stage q4.md:
+
+# Step 4 — Commit with message "Add Q4 answers":
+
+# Step 5 — Push `my-solutions` to the remote:
+
+
+"""
+Step 6 (short answer). You run `git status` and it says
+`Changes not staged for commit`. In one sentence, what does that tell you,
+and which command moves a file from there into the next commit?
+
+    Answer:
+"""
