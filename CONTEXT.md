@@ -3,7 +3,7 @@
 **Last updated:** 2026-06-22  
 **Dev repo (this working copy):** [github.com/cpwong/5m-data-entry-test-v2](https://github.com/cpwong/5m-data-entry-test-v2)  
 **Local path:** `/home/cpwong/sctp-dsai/5m-data-entry-test-v2`  
-**Public applicant-facing repo (fork target):** [github.com/su-ntu-ctp/5m-data-entry-test](https://github.com/su-ntu-ctp/5m-data-entry-test) — the NTU Survey Portal points applicants here. The v2 content in this dev repo will eventually be published to that repo so the public URL stays stable across assessment versions.
+**Public applicant-facing repo (fork target):** [github.com/su-ntu-ctp/5m-data-entry-test](https://github.com/su-ntu-ctp/5m-data-entry-test). The NTU Survey Portal points applicants here. The v2 content in this dev repo will eventually be published to that repo so the public URL stays stable across assessment versions.
 
 ---
 
@@ -90,15 +90,13 @@ Q1 spans all five topic areas in a single mixed MCQ block.
 
 ## README Structure
 
-1. **About This Assessment** — purpose, what we expect, what this is not
-2. **What This Assessment Covers** — topic/question/format table
-3. **Submission Instructions** — fork → clone → complete → push → submit link
-   - Framed as part of the assessment itself (self-directed learning signal)
-   - Troubleshooting table
-   - Self-learning callout blockquote
-4. **References** — grouped by topic area, no timing estimates
-5. **Problems** — 9 question links pointing to `./src/`
-6. **Use of Generative AI Tools** — expanded policy with industry-standard framing
+1. **About This Assessment**: purpose, what we expect, what this is not
+2. **What This Assessment Covers**: topic/question/format table
+3. **Heads-up for Windows users**: WSL primer with Windows-11-minimum gate and an alternate Linux-install path
+4. **Submission Instructions**: fork → clone → complete → push → submit link. Framed as part of the assessment itself (self-directed learning signal). Includes a troubleshooting table and self-learning callout blockquote.
+5. **References**: grouped by topic area, no timing estimates. The OS section has sub-sections for General, macOS, Linux, Windows (WSL), and a nested "Linux install path for Windows users" with Ubuntu install resources.
+6. **Problems**: 9 question links pointing to `./src/`
+7. **Use of Generative AI Tools**: expanded policy with industry-standard framing
 
 ---
 

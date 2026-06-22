@@ -10,9 +10,9 @@
 |----------|-------|--------|-------|
 | Q1 | Mixed MCQ: Python, CLI, Git, OS, shells (15 parts) | MCQ | 15 |
 | Q2 | Python & Environment Setup | Paste output + short answer | 10 |
-| Q3 | OS / Shell / WSL | Paste output + short answer | 10 |
+| Q3 | Your Operating System and Shell | Paste output + short answer | 10 |
 | Q4 | CLI: Navigation and Predicting Output | Commands + predict | 10 |
-| Q5 | OS: WSL, Terminals, Shells | Short answer (3 parts) | 10 |
+| Q5 | Operating Systems, Terminals, and Shells | Short answer (3 parts) | 10 |
 | Q6 | AI Literacy: Prompt Engineering | Short answer + rewrite | 15 |
 | Q7 | Python: Read and Predict Output | Predict + short answer | 10 |
 | Q8 | Python: Find and Fix the Bug | Code + short answer | 10 |
@@ -51,16 +51,16 @@
 
 **(a) + (b) Pasted terminal output (6 marks)**
 
-- **2 marks** — real Python version output (`Python 3.x.y`), **or** a clear, specific honest statement that Python is not installed plus what they would install.
-- **2 marks** — real `conda env list` output showing env names and paths, **or** a clear, specific honest statement that conda is not installed plus what they would install (Miniconda / Anaconda).
-- **2 marks** — commands shown alongside output (not just bare version numbers); output looks genuine (env paths, prompt artefacts, terminal noise).
+- **2 marks**: real Python version output (`Python 3.x.y`), **or** a clear, specific honest statement that Python is not installed plus what they would install.
+- **2 marks**: real `conda env list` output showing env names and paths, **or** a clear, specific honest statement that conda is not installed plus what they would install (Miniconda / Anaconda).
+- **2 marks**: commands shown alongside output (not just bare version numbers); output looks genuine (env paths, prompt artefacts, terminal noise).
 
 Honesty-about-not-installed answers earn full marks if specific. Penalise output that looks copy-pasted from documentation (generic `Python 3.x.x`, no env paths, perfectly clean).
 
 **(c) Short answer (4 marks)**
 
-- **2 marks** — what the version number tells them (which Python interpreter is active; major.minor.patch).
-- **2 marks** — at least one valid way to check whether `pandas` is installed: `pip list`, `pip show pandas`, `conda list pandas`, `python -c "import pandas"`.
+- **2 marks**: what the version number tells them (which Python interpreter is active; major.minor.patch).
+- **2 marks**: at least one valid way to check whether `pandas` is installed: `pip list`, `pip show pandas`, `conda list pandas`, `python -c "import pandas"`.
 
 Award 1 mark per half if the answer is on-track but incomplete.
 
@@ -74,8 +74,8 @@ Award 2 marks for genuine output of `echo $SHELL` (e.g. `/bin/bash`, `/usr/bin/z
 
 **(b) OS + terminal identification (4 marks)**
 
-- **2 marks** — specific OS version (e.g. "Windows 11 23H2", "macOS Sonoma 14.4", "Ubuntu 22.04"). 1 mark for vague ("Windows", "Mac").
-- **2 marks** — correctly identifies the terminal type (WSL / native / PowerShell) **and** gives a tell (e.g. `/bin/bash` path → WSL or Linux; `$PSVersionTable` exists → PowerShell; macOS default `/bin/zsh`). 1 mark for identification without a tell.
+- **2 marks**: specific OS version (e.g. "Windows 11 23H2", "macOS Sonoma 14.4", "Ubuntu 22.04"). 1 mark for vague ("Windows", "Mac").
+- **2 marks**: correctly identifies the terminal type (WSL / native / PowerShell) **and** gives a tell (e.g. `/bin/bash` path → WSL or Linux; `$PSVersionTable` exists → PowerShell; macOS default `/bin/zsh`). 1 mark for identification without a tell.
 
 **(c) Why PowerShell breaks POSIX course instructions (4 marks)**
 
@@ -98,8 +98,8 @@ Accept: `cd projects/sctp`, `cd ./projects/sctp`, or `cd /home/user/projects/sct
 
 **(b) Predict pwd and ls output (4 marks)**
 
-- **2 marks** — `pwd` output is `/home/user/projects/sctp`.
-- **2 marks** — `ls` output is `data.csv`.
+- **2 marks**: `pwd` output is `/home/user/projects/sctp`.
+- **2 marks**: `ls` output is `data.csv`.
 
 **(c) mkdir + cd up (2 marks)**
 
@@ -111,8 +111,8 @@ Both intents must be present. 1 mark for one of the two.
 
 **(d) Diagnose error (2 marks)**
 
-- **1 mark** — what the error means (`reports` does not exist in the current directory, or it is not a directory).
-- **1 mark** — a command to inspect contents: `ls` (also accept `ls -la`, `dir` in PowerShell).
+- **1 mark**: what the error means (`reports` does not exist in the current directory, or it is not a directory).
+- **1 mark**: a command to inspect contents: `ls` (also accept `ls -la`, `dir` in PowerShell).
 
 ---
 
@@ -121,22 +121,22 @@ Both intents must be present. 1 mark for one of the two.
 **(a) What is a kernel (3 marks)**
 
 Award up to 3 marks for an own-words explanation covering:
-- **1 mark** — it is the core of the operating system.
-- **1 mark** — it mediates between software (apps) and hardware (CPU, memory, devices).
-- **1 mark** — the answer is in the learner's own words, not a textbook paraphrase or a copy of the Q1 option B wording.
+- **1 mark**: it is the core of the operating system.
+- **1 mark**: it mediates between software (apps) and hardware (CPU, memory, devices).
+- **1 mark**: the answer is in the learner's own words, not a textbook paraphrase or a copy of the Q1 option B wording.
 
 **(b) WSL misconception (4 marks)**
 
 Award up to 4 marks:
-- **1 mark** — explicitly says the claim is **not accurate**.
-- **2 marks** — explains that WSL 2 runs a real Linux kernel inside a lightweight VM tightly integrated with Windows (file/resource interop).
-- **1 mark** — articulates why "two completely separate operating systems" overstates the separation (shared resources, integrated filesystem).
+- **1 mark**: explicitly says the claim is **not accurate**.
+- **2 marks**: explains that WSL 2 runs a real Linux kernel inside a lightweight VM tightly integrated with Windows (file/resource interop).
+- **1 mark**: articulates why "two completely separate operating systems" overstates the separation (shared resources, integrated filesystem).
 
 **(c) Terminal emulator vs shell (3 marks)**
 
-- **1 mark** — terminal emulator: GUI window/application (Windows Terminal, iTerm2, GNOME Terminal).
-- **1 mark** — shell: program running inside it that interprets commands (bash, zsh, PowerShell).
-- **1 mark** — at least one valid example given for **each** of the two.
+- **1 mark**: terminal emulator: GUI window/application (Windows Terminal, iTerm2, GNOME Terminal).
+- **1 mark**: shell: program running inside it that interprets commands (bash, zsh, PowerShell).
+- **1 mark**: at least one valid example given for **each** of the two.
 
 ---
 
@@ -144,21 +144,21 @@ Award up to 4 marks:
 
 **Task 1**
 
-- **(a) 2 marks** — selecting **B** (or a well-reasoned, defensible case for A; accept A only with strong justification).
-- **(b) 4 marks** — 2 marks per valid reason (max 2 reasons). Valid reasons include:
+- **(a) 2 marks**: selecting **B** (or a well-reasoned, defensible case for A; accept A only with strong justification).
+- **(b) 4 marks**: 2 marks per valid reason (max 2 reasons). Valid reasons include:
   - Prompt B has a defined role, anchoring the AI's perspective.
   - Prompt B breaks the task into explicit numbered steps, reducing ambiguity.
   - Prompt B specifies audience and constraints, shaping tone and length.
   - Prompt B uses structured formatting, easier for the model to parse.
   
   Award 1 mark for a reason that is correct but vaguely stated.
-- **(c) 3 marks** — genuine strength of the unchosen prompt. For Prompt A: natural context-setting, richer background, reads as a realistic user request, demonstrates the kind of unstructured input AI must often parse. Award 1-2 marks for partially correct answers.
+- **(c) 3 marks**: genuine strength of the unchosen prompt. For Prompt A: natural context-setting, richer background, reads as a realistic user request, demonstrates the kind of unstructured input AI must often parse. Award 1-2 marks for partially correct answers.
 
 **Task 2 — Rewrite (6 marks)**
 
-- **2 marks** — rewritten prompt is coherent and represents an actual improvement on the original.
-- **2 marks** — the borrowed element is clearly identified.
-- **2 marks** — the explanation of *why* it improves the prompt is specific and accurate.
+- **2 marks**: rewritten prompt is coherent and represents an actual improvement on the original.
+- **2 marks**: the borrowed element is clearly identified.
+- **2 marks**: the explanation of *why* it improves the prompt is specific and accurate.
 
 ---
 
@@ -166,12 +166,12 @@ Award up to 4 marks:
 
 **Snippet 1**
 
-- **(a) 3 marks** — answer is **`17`** (sums 8 + 9; only values strictly greater than 4). Award 1 mark for `21` (off-by-one threshold, included 4) or other near-misses that show some understanding. 0 for guesses.
-- **(b) 3 marks** — describes that the loop sums all numbers in the list that are greater than 4. Award 2 marks for "sum of large numbers" without naming the threshold; 1 mark for any partially correct description.
+- **(a) 3 marks**: answer is **`17`** (sums 8 + 9; only values strictly greater than 4). Award 1 mark for `21` (off-by-one threshold, included 4) or other near-misses that show some understanding. 0 for guesses.
+- **(b) 3 marks**: describes that the loop sums all numbers in the list that are greater than 4. Award 2 marks for "sum of large numbers" without naming the threshold; 1 mark for any partially correct description.
 
 **Snippet 2**
 
-- **(c) 4 marks** — both lines correct, 2 marks each:
+- **(c) 4 marks**: both lines correct, 2 marks each:
   - Line 1: `Hello, world!`
   - Line 2: `Hello, Ada!`
   
@@ -181,12 +181,12 @@ Award up to 4 marks:
 
 ## Q8 — Python: Find and Fix the Bug (10 marks)
 
-**Test input:** `[1, 2, 3, 4, 5, 6, 8]` — buggy version returns `3` (odds: 1, 3, 5); correct version returns `4` (evens: 2, 4, 6, 8).
+**Test input:** `[1, 2, 3, 4, 5, 6, 8]`. Buggy version returns `3` (odds: 1, 3, 5); correct version returns `4` (evens: 2, 4, 6, 8).
 
 **(a) Diagnose (3 marks)**
 
-- **1 mark** — correctly states the buggy version returns `3`.
-- **2 marks** — explains the cause: `n % 2 == 1` matches **odd** numbers, not even.
+- **1 mark**: correctly states the buggy version returns `3`.
+- **2 marks**: explains the cause: `n % 2 == 1` matches **odd** numbers, not even.
 
 Partial: 1 mark if they identify "wrong condition" without specifying odd-vs-even.
 
@@ -201,9 +201,9 @@ def count_evens(numbers):
             count = count + 1
     return count
 ```
-- **3 marks** — correct logic (`% 2 == 0`).
-- **1 mark** — correctly returns the count.
-- **1 mark** — code is clean and would run as written.
+- **3 marks**: correct logic (`% 2 == 0`).
+- **1 mark**: correctly returns the count.
+- **1 mark**: code is clean and would run as written.
 
 Accept equivalent one-liners: `return sum(1 for n in numbers if n % 2 == 0)` or `return len([n for n in numbers if n % 2 == 0])` for full marks. Award 2 marks for any correct logic that fails to return a value, or returns the count of odds.
 
@@ -227,5 +227,5 @@ Award 2 marks for: `n % 2 == 0` checks whether `n` is divisible by 2 with no rem
 
 **Step 6: short answer (2 marks)**
 
-- **1 mark** — what `Changes not staged for commit` means (the file has been modified but is not yet in the staging area / index).
-- **1 mark** — the command that stages it: `git add <file>`.
+- **1 mark**: what `Changes not staged for commit` means (the file has been modified but is not yet in the staging area / index).
+- **1 mark**: the command that stages it: `git add <file>`.
