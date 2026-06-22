@@ -19,7 +19,8 @@ This version was further restructured after an initial 10-question layout: Q1 wa
 
 ```
 5m-data-entry-test-v2/
-├── README.md                  # Main assessment document (learner-facing)
+├── README.md                  # Main assessment document (learner-facing, restructured with foldouts)
+├── SETUP-WINDOWS.md           # WSL + Ubuntu install guide for Windows users (moved out of README)
 ├── CLAUDE.md                  # Repo guidance for Claude Code
 ├── CONTEXT.md                 # This file
 ├── src/
@@ -88,15 +89,32 @@ Q1 spans all five topic areas in a single mixed MCQ block.
 
 ---
 
-## README Structure
+## README Structure (progressive disclosure layout)
 
-1. **About This Assessment**: purpose, what we expect, what this is not
-2. **What This Assessment Covers**: topic/question/format table
-3. **Heads-up for Windows users**: WSL primer with Windows-11-minimum gate and an alternate Linux-install path
-4. **Submission Instructions**: fork → clone → complete → push → submit link. Framed as part of the assessment itself (self-directed learning signal). Includes a troubleshooting table and self-learning callout blockquote.
-5. **References**: grouped by topic area, no timing estimates. The OS section has sub-sections for General, macOS, Linux, Windows (WSL), and a nested "Linux install path for Windows users" with Ubuntu install resources.
-6. **Problems**: 9 question links pointing to `./src/`
-7. **Use of Generative AI Tools**: expanded policy with industry-standard framing
+Restructured for accessibility: visible-by-default content is now ~41 lines (down from ~150), with the rest in GitHub `<details>` foldouts. Three foldouts open by default (About, Submission, AI Policy); two stay collapsed (Coverage, References) since candidates use them reactively.
+
+**Visible by default (top of README):**
+
+1. Title + one-line tagline
+2. **TL;DR** blockquote: fork → answer in `src/` → push → submit URL
+3. **Where do you want to go?** routing table directing candidates to the right section by intent
+4. **The 9 Questions**: promoted to the top so eager candidates see it immediately (was buried below References)
+5. **On Windows?** one-line pointer to `SETUP-WINDOWS.md`
+
+**Open-by-default foldouts:**
+
+- **About this assessment**: "About This Assessment" intro + "What We Expect From You" + "What This Assessment Is Not"
+- **Submission Instructions**: full 6-step walkthrough + Troubleshooting table + self-learning callout blockquote
+- **Use of Generative AI Tools**: expanded policy with industry-standard framing
+
+**Collapsed-by-default foldouts:**
+
+- **What this assessment covers**: topic/question/format table
+- **References**: grouped by topic area, with OS sub-sections for General, macOS, Linux, and Windows (WSL). No timing estimates.
+
+**Moved out to `SETUP-WINDOWS.md`:**
+
+The previous "Heads-up for Windows users" section in full, plus the "Linux install path for Windows users" subsection that used to be nested under References → Windows (WSL). The setup file is self-contained and linked from the README's nav table and the "On Windows?" callout.
 
 ---
 

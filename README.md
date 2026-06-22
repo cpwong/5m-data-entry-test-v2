@@ -1,8 +1,18 @@
 # (SCTP) Advanced Professional Certificate in Data Science and AI - Technical Assessment
 
-## About This Assessment
-
 This is the technical entry assessment for the **(SCTP) Advanced Professional Certificate in Data Science and AI** programme.
+
+---
+
+**TL;DR:** Fork this repo, answer the questions in `src/`, push your changes, then submit your fork URL on the NTU Survey Portal. 
+
+---
+
+> 🪟 **Windows Users**
+> You will need WSL or Ubuntu installed to answer Q2 and Q3. See [**`SETUP-WINDOWS.md`**](./SETUP-WINDOWS.md) for the full guide. macOS and Linux users can skip this; you already have a Unix shell built in.
+
+
+### About this Assessment
 
 The assessment is designed to give us a picture of your current technical baseline. We are looking for evidence that you can read carefully, attempt unfamiliar problems independently, and are willing to learn.
 
@@ -16,52 +26,25 @@ Take as much time as you need to complete the assessment. You are encouraged to 
 - **Be honest about what you don't know.** If you are unsure, say so and explain your best understanding. We value intellectual honesty.
 - **Don't get stuck.** If a question is unclear or unfamiliar, make your best attempt and move on. You can always come back to it.
 
-### What This Assessment Is Not
+### Please attempt all 9 questions in the `src/` folder:
 
-This is not a certification exam. You will not be disqualified for wrong answers. The results help our instructors understand your starting point so they can support you effectively from day one.
+- [Question 1 — Multiple Choice: Core Concepts](./src/q1.md) *(MCQ, 15 parts)*
+- [Question 2 — Python & Environment Setup](./src/q2.md) *(Paste real terminal output + short answer)*
+- [Question 3 — Your Operating System and Shell](./src/q3.md) *(Paste real terminal output + short answer)*
+- [Question 4 — CLI: Navigation and Predicting Output](./src/q4.md) *(Commands + predict output)*
+- [Question 5 — Operating Systems, Terminals, and Shells](./src/q5.md) *(Short answer)*
+- [Question 6 — AI Literacy: Prompt Engineering](./src/q6.md) *(Short answer + rewrite)*
+- [Question 7 — Python: Read and Predict Output](./src/q7.py) *(Predict + short answer)*
+- [Question 8 — Python: Find and Fix the Bug](./src/q8.py) *(Code)*
+- [Question 9 — GitHub: Git Workflow](./src/q9.py) *(Commands + short answer)*
 
----
+**`.md` files** (Q1 to Q6): open in any text editor or view directly on GitHub, then fill in your answers where indicated.  
+**`.py` files** (Q7 to Q9): open in a code editor or IDE and write your code where indicated.
 
-## What This Assessment Covers
+Your code should be readable and include brief comments where relevant.
 
-This assessment tests foundational technical skills across five areas:
-
-| Area | Questions | Format |
-|------|-----------|--------|
-| Python Programming | Q1 (parts), Q2, Q7, Q8 | MCQ, paste output, predict, code |
-| Command Line Interface (CLI) | Q1 (parts), Q4 | MCQ, commands, predict |
-| Git and GitHub | Q1 (parts), Q9 | MCQ, commands |
-| Operating Systems / Shells | Q1 (parts), Q3, Q5 | MCQ, paste output, short answer |
-| AI Literacy | Q6 | Short answer |
-
-Q1 is a mixed multiple-choice block covering all five areas in one place.
-
----
-
-## Heads-up for Windows users
-
-Several questions in this assessment expect a **Unix-style terminal** (bash or zsh). On Windows, that means using **WSL (Windows Subsystem for Linux)**, not PowerShell or Command Prompt.
-
-If you have never heard of WSL, that is completely fine. WSL is a Microsoft-supported feature that lets you run Ubuntu Linux inside Windows, in its own terminal window. Most people install it in about 15 to 30 minutes.
-
-> **Minimum Windows version:** **Windows 11**. The SCTP course supports Windows 11 only. If you are on Windows 10, please upgrade to Windows 11 before installing WSL. Alternatively, you can switch to a free Linux OS such as Ubuntu.
-
-**Prefer to install Linux directly instead of using WSL?** That works too, and is fully supported for this course. Ubuntu is the most beginner-friendly distribution and is the same Linux that WSL would install for you anyway. You can install Ubuntu alongside Windows (dual-boot), on a spare laptop, or try it from a USB stick first without committing. See the [Linux install path for Windows users](#linux-install-path-for-windows-users) below in the References section. Once Ubuntu is running, you can skip the WSL steps entirely; the rest of this Heads-up section does not apply to you.
-
-You do not need WSL to read the questions, but you will need it (or another POSIX shell) for Q2 and Q3, which ask you to paste real terminal output. If you are on **macOS** or **Linux** (either as your main OS or installed alongside Windows), you already have a Unix shell built in and can skip the rest of this section.
-
-**If you are new to WSL, start here:**
-
-1. Read [What is WSL? (Microsoft Docs)](https://learn.microsoft.com/en-us/windows/wsl/about) to understand what you are installing.
-2. Follow [Install WSL on Windows 11 (Microsoft Docs)](https://learn.microsoft.com/en-us/windows/wsl/install) for the install steps. The official page also embeds short walkthrough videos.
-3. After install, skim [Basic commands for WSL (Microsoft Docs)](https://learn.microsoft.com/en-us/windows/wsl/basic-commands) so you know how to launch and shut down your Linux session.
-4. For short beginner-friendly video walkthroughs, search YouTube for **"install WSL Windows 11"**. Pick a video that is less than two years old (WSL setup has improved over time, so older tutorials may not match current Windows).
-
-Stuck on installation? You can still attempt every question. For Q2 and Q3, write one honest sentence saying that WSL is not yet installed and what you plan to do next. Honesty earns full marks.
-
----
-
-## Submission Instructions
+<details>
+<summary><strong>💾 Submission Instructions</strong></summary>
 
 The submission process is itself part of the assessment. Setting up Git, forking a repository, and pushing your work to GitHub are foundational skills you will use throughout the SCTP programme. If you have not done this before, use the steps and resources below to figure it out. That is exactly the kind of self-directed learning this programme is built on.
 
@@ -104,10 +87,10 @@ git push origin main
 
 **Step 6: Submit your repository link**  
 Copy the URL of your forked repository (e.g. `https://github.com/<your-username>/5m-data-entry-test`) and submit it on the NTU Survey Portal.
+</details>
 
----
-
-### Troubleshooting
+<details>
+<summary><strong>🆘 Troubleshooting</strong></summary>
 
 If you get stuck at any step, these resources can help:
 
@@ -118,15 +101,12 @@ If you get stuck at any step, these resources can help:
 | Pushing changes fails | [GitHub Docs — Pushing commits](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository) |
 | General Git reference | [W3Schools Git Tutorial](https://www.w3schools.com/git/) |
 
----
-
 > **The ability to self-learn is a core part of the SCTP programme.** Working through the submission process, including any troubleshooting you encounter, is itself a demonstration of the skills you will build on this course. Use the resources above, search for answers, and persist through the friction. That is exactly the mindset we are looking for.
 
----
+</details>
 
-## References
-
-Work through these before attempting the assessment.
+<details>
+<summary><strong>📚 References</strong></summary>
 
 ### Python *(Q1 parts, Q2, Q7, Q8)*
 - [Variables and Naming Conventions](https://www.w3schools.com/python/gloss_python_variable_names.asp)
@@ -152,61 +132,21 @@ Work through these before attempting the assessment.
 
 Read the entry for your OS, plus the general terminal/shell reference.
 
-**General**
 - [Understanding Terminal, Console, Shell and Kernel — GeeksforGeeks](https://www.geeksforgeeks.org/operating-systems/what-is-terminal-console-shell-and-kernel/)
 
-**macOS**
 - [Open or quit Terminal on Mac — Apple Support](https://support.apple.com/en-sg/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
 
-**Linux**
 - [The Linux Commands Handbook — freeCodeCamp](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
 
-**Windows (WSL).** Windows 11 required. See the [Heads-up for Windows users](#heads-up-for-windows-users) section above first if you are new to WSL.
-- [What is WSL? — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/about)
-- [Install WSL on Windows 11 — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Basic commands for WSL — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
-- [Set up your WSL development environment — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
-- [WSL FAQ — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/faq)
-
-#### Linux install path for Windows users
-
-If you prefer to install a free Linux distribution (Ubuntu) instead of using WSL, the resources below cover the three common paths: try without installing, install alongside Windows (dual-boot), or install on a spare machine. Ubuntu is recommended because it matches what WSL installs and what most beginner course materials assume.
-
-- [Download Ubuntu Desktop — ubuntu.com](https://ubuntu.com/download/desktop). The official ISO download.
-- [Install Ubuntu Desktop — ubuntu.com tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop). Step-by-step install guide for a clean install or a spare laptop.
-- [Try Ubuntu before you install — ubuntu.com tutorial](https://ubuntu.com/tutorials/try-ubuntu-before-you-install). Boot Ubuntu from a USB stick to test-drive it without changing anything on your machine.
-- [Install Ubuntu alongside Windows (dual-boot) — Ubuntu Community Help](https://help.ubuntu.com/community/WindowsDualBoot). Keep Windows, add Ubuntu, and choose at startup.
-
-> **Warning:** Dual-booting modifies your disk's partition table. Back up your data before you begin, and read the full guide before running the installer. If you are not comfortable with this, use WSL or a spare machine instead.
 
 ### AI Literacy and Prompt Engineering *(Q6)*
 - [Prompt Engineering Guide — OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Introduction to Prompt Engineering — LearnPrompting.org](https://learnprompting.org/docs/intro)
 
----
+</details>
 
-## Problems
-
-Please attempt all 9 questions in the `src/` folder:
-
-- [Question 1 — Multiple Choice: Core Concepts](./src/q1.md) *(MCQ, 15 parts)*
-- [Question 2 — Python & Environment Setup](./src/q2.md) *(Paste real terminal output + short answer)*
-- [Question 3 — Your Operating System and Shell](./src/q3.md) *(Paste real terminal output + short answer)*
-- [Question 4 — CLI: Navigation and Predicting Output](./src/q4.md) *(Commands + predict output)*
-- [Question 5 — Operating Systems, Terminals, and Shells](./src/q5.md) *(Short answer)*
-- [Question 6 — AI Literacy: Prompt Engineering](./src/q6.md) *(Short answer + rewrite)*
-- [Question 7 — Python: Read and Predict Output](./src/q7.py) *(Predict + short answer)*
-- [Question 8 — Python: Find and Fix the Bug](./src/q8.py) *(Code)*
-- [Question 9 — GitHub: Git Workflow](./src/q9.py) *(Commands + short answer)*
-
-**`.md` files** (Q1 to Q6): open in any text editor or view directly on GitHub, then fill in your answers where indicated.  
-**`.py` files** (Q7 to Q9): open in a code editor or IDE and write your code where indicated.
-
-Your code should be readable and include brief comments where relevant.
-
----
-
-## 📝 Use of Generative AI Tools
+### 📝 Use of Generative AI Tools
 
 The use of AI tools (e.g. ChatGPT, GitHub Copilot, Claude) is permitted for this assessment.
 
