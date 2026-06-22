@@ -34,7 +34,7 @@ This version was further restructured after an initial 10-question layout: Q1 wa
 │   └── q9.py                  # GitHub: Git Workflow (5 commands + short answer)
 ├── answers/
 │   └── answer-key.md          # Assessor-only model answers + rubric
-└── proposed-v3/               # Parallel WIP draft (do not cross-apply to src/)
+└── .proposed-feng/            # Parallel WIP draft from Feng (do not cross-apply to src/)
 ```
 
 ---
