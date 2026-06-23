@@ -130,15 +130,12 @@ If you get stuck at any step, these resources can help:
 
 ### Operating Systems, Terminals, and Shells *(Q1 parts, Q3, Q5)*
 
-Read the entry for your OS, plus the general terminal/shell reference.
+Refer to the entry for your OS, plus the general terminal/shell reference.
 
 - [Understanding Terminal, Console, Shell and Kernel — GeeksforGeeks](https://www.geeksforgeeks.org/operating-systems/what-is-terminal-console-shell-and-kernel/)
-
 - [Open or quit Terminal on Mac — Apple Support](https://support.apple.com/en-sg/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
-
 - [The Linux Commands Handbook — freeCodeCamp](https://www.freecodecamp.org/news/the-linux-commands-handbook/)
-
-- [Basic commands for WSL — Microsoft Docs](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
+- [What is PowerShell — Microsoft Docs](https://learn.microsoft.com/en-us/powershell/scripting/)
 
 ### AI Literacy and Prompt Engineering *(Q6)*
 - [Prompt Engineering Guide — OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
